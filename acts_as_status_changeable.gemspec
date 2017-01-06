@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.name          = "acts_as_status_changeable"
   gem.require_paths = ["lib"]
   gem.version       = ActsAsStatusChangeable::VERSION
-  gem.required_ruby_version = ['>= 1.8.7', '<= 2.3.*']
+  gem.required_ruby_version = ['>= 1.8.7', '<= 2.4.0']
 
   gem.add_runtime_dependency "activerecord", "~>3"
 
@@ -20,3 +20,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "bundler"
   gem.add_development_dependency "sqlite3"
 end
+
