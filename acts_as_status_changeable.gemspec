@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.name          = "acts_as_status_changeable"
   gem.require_paths = ["lib"]
   gem.version       = ActsAsStatusChangeable::VERSION
-  gem.required_ruby_version = "~> 1.8.7"
+  gem.required_ruby_version = ['>= 1.8.7', '<= 2.3.*']
 
   gem.add_runtime_dependency "activerecord", "~>3"
 

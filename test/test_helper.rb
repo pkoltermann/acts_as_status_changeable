@@ -32,7 +32,7 @@ def prepare_database
 end
 
 def delete_database
-  File.delete(DATABASE_PATH) if File.exists?(DATABASE_PATH)
+  File.delete(DATABASE_PATH) if File.exist?(DATABASE_PATH)
 end
 
 # At exit cleanup needs to be registered before requiring test/unit which uses the same technique.
