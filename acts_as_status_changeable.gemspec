@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.version       = ActsAsStatusChangeable::VERSION
   gem.required_ruby_version = ['>= 1.8.7', '<= 2.4.0']
 
-  gem.add_runtime_dependency "activerecord", "~>3"
+  gem.add_runtime_dependency "activerecord", ">= 3"
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "bundler"
